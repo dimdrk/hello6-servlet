@@ -5,6 +5,6 @@
 </head>
 <body>
     <h1>Athens Uni of Eco and Bus</h1>
-    <p>Hello CF!! Γεια!!</p>
+    <p><%= request.getAttribute("message")%></p>
 </body>
 </html>
